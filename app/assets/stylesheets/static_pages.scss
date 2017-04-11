@@ -73,8 +73,6 @@ p {
 	color: #119DA4;
 	font-size: 1.2em;
 	text-align: center;
-	margin-left: 50px;
-	margin-right: 50px
 }
 
 // begin contact page
@@ -120,6 +118,37 @@ h2, h3 {
 }
 
 // end product page
+// begin about page
+
+.about {
+	margin-bottom: 300px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+// end about page
+//begin footer
+
+
+footer {
+	position: absolute;
+	width: 100%;
+	margin-bottom: 0px;
+	height: 100px;
+	background-color: #90c0cb;
+	color: #6b7a7c;
+	padding-top: 25px;
+	padding-left: 20px;
+}
+
+// end footer
+
+
+
+
+
+
+
 
 
 
