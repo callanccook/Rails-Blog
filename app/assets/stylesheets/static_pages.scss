@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-	background-color: white;
+	background-color: #071E22;
 	}
 
 // begin navbar
@@ -16,10 +16,10 @@ body {
 .navbar-header, .navbar-header>a {
 	font-size: 1.8em;
 	font-family: Inconsolata, Futura, sans-serif;
-	color: #844784;
-	margin-top: 40px;
-	margin-bottom: 30px;
-	margin-right: 40px;
+	color: #119DA4;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-right: 20px;
 	font-weight: 800;
 	margin-left: 10px;
 	text-transform: uppercase;
@@ -35,11 +35,13 @@ body {
 
 .navbar-default .navbar-nav>li>a {
 	text-transform: uppercase;
-	font-family: Roboto, Futura, sans-serif;
+	font-family: Inconsolata, Futura, sans-serif;
+	font-size: 1.5em;
+	padding-top: 10px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-	color: #22adb7;
+	color: #EDAE49;
 }
 
 ul.navbar-right {
@@ -51,7 +53,7 @@ ul.navbar-right {
 .page-title {
 	font-family: Cutive, Georgia, serif;
 	text-align: center;
-	color: #844784;
+	color: #119DA4;
 	margin: 100px;
 	font-weight: 600;
 	word-spacing: 0.5em;
@@ -62,15 +64,17 @@ ul.navbar-right {
 
 h1 {
 	text-align: center;
-	color: #844784;
+	color: #119DA4;
 	font-family: Inconsolata, Futura, sans-serif;
 }
 
 p {
-	font-family: Roboto, Futura, sans-serif;
-	color: #844784;
+	font-family: Bitter, serif;
+	color: #119DA4;
 	font-size: 1.2em;
-	text-align: center
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px
 }
 
 // begin contact page
@@ -103,7 +107,7 @@ p {
 
 h2, h3 {
 	font-family: Cutive, Georgia, serif;
-	color: #844784;
+	color: #119DA4;
 	text-align: center;
 }
 
