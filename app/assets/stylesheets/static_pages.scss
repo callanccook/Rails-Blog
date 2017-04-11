@@ -1,3 +1,116 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	background-color: white;
+	}
+
+// begin navbar
+
+.navbar {
+	background-color: white;
+	margin-bottom: 0px;
+}
+
+.navbar-header, .navbar-header>a {
+	font-size: 1.8em;
+	font-family: Inconsolata, Futura, sans-serif;
+	color: #844784;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	margin-right: 40px;
+	font-weight: 800;
+	margin-left: 10px;
+	text-transform: uppercase;
+}
+
+.navbar-header>a:hover {
+	background-color: white;
+}
+
+.navbar-default .navbar-nav {
+	margin-left: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	text-transform: uppercase;
+	font-family: Roboto, Futura, sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #22adb7;
+}
+
+ul.navbar-right {
+	margin: 20px;
+}
+
+// end navbar
+
+.page-title {
+	font-family: Cutive, Georgia, serif;
+	text-align: center;
+	color: #844784;
+	margin: 100px;
+	font-weight: 600;
+	word-spacing: 0.5em;
+	text-transform: uppercase;
+	letter-spacing: 0em;
+	font-size: 2em;
+}
+
+p {
+	font-family: Roboto, Futura, sans-serif;
+	color: #844784;
+	font-size: 1.2em;
+}
+
+// begin contact page
+
+.contact {
+	padding-bottom: 100px;
+}
+
+.phone , .email , .address {
+	text-align: right;
+	font-size: 1.5em;
+}
+
+.info {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.address>p {
+	line-height: 25px;
+}
+
+// end contact page
+// begin product page
+
+.row {
+	margin: 10px;
+}
+
+h2, h3 {
+	font-family: Cutive, Georgia, serif;
+	color: #844784;
+	text-align: center;
+}
+
+.post-image {
+	border-radius: 50px;
+}
+
+.post-paragraph {
+	padding-top: 100px;
+}
+
+// end product page
+
+
+
+
+
