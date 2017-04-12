@@ -136,25 +136,25 @@ h2, h3 {
 }
 
 // end about page
+//begin carousel
+
+.carousel-inner>.item>img {
+	margin: auto;
+}
+
+.carousel-caption {
+	padding: 0px;
+}
+
+
+//end carousel
 //begin footer
 
 
 footer {
 	font-family: Bitter, serif;
-	position: absolute;
-	height: 100px;
 	color: gray;
-	padding-top: 100px;
-	padding-left: 20px;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	margin-bottom: 0px;
-}
-
-.footer {
-	padding-top: 50px;
-	margin-bottom: 50px;
+	padding: 50px;
 }
 
 // used codepens always-on-bottom footer

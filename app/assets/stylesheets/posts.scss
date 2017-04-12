@@ -55,6 +55,23 @@ body>a {
   margin-top: 20px;
 }
 
+#first-row {
+  padding: 0;
+}
+
+#first-row, #body-row {
+  display: flex;
+  justify-content: center;
+}
+
+#body-row {
+  padding-bottom: 0px;
+}
+
+#last-row {
+  display: flex;
+  justify-content: flex-start;
+}
 
 .post-image {
     border-radius: 40px;
@@ -66,6 +83,19 @@ body>a {
     margin-bottom: 75px;
 }
 
+.new-post {
+  background-color: #edae49;
+  border-color: #edae49;
+  border-radius: 5px;
+  color: #808080;
+  border-style: double;
+}
+
+.new-post:hover {
+  color: gray;
+}
+
 footer {
 	margin-bottom: 0px;
 }
+

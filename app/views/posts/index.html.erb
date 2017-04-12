@@ -3,35 +3,32 @@
 <h1>Posts</h1>
 
 <div class="container">
-  <div class="row">
     <% @posts.each do |post| %>
-      <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="row" id="first-row">
+      <div class="col-sm-8 col-md-4 col-lg-4" id="title-image">
         <a href="#"><h3><strong><%= post.name %></strong></h3></a>
         <%= image_tag post.image_url, :class => "post-image" %>
-      </div>
-      <!-- col -->
-      <div class="col-sm-6 col-md-4 col-lg-3">
+      </div><!-- col -->
+      <div class="col-sm-8 col-md-4 col-lg-4" id="description">
         <p><%= post.description %></p>
-      </div>
-      <!-- col -->
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <p><%= post.image_url %></p>
-        <p><%= post.body %></p>
-      </div>
-      <!-- col -->
-        <br>
-        <a><%= link_to 'Show', post %></a>
-        <a><%= link_to 'Edit', edit_post_path(post) %></a>
-        <a><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></a>
-      </div>
-      <!-- col -->
-    <% end %>
-  </div>
-  <!-- row -->
-</div>
-<!-- container -->
+      </div><!-- col -->
+  </div><!-- row -->
+  <div class="row" id="body-row">
+    <div class="col-sm-8 col-md-12 col-lg-12" id="body">
+      <p><%= post.body %></p>
+    </div><!-- col -->
+  </div><!-- row -->
+  <div class="row" id="last-row">
+    <div class="col-sm-12 col-md-12 col-lg-12" id="show-edit-destroy">
+      <a><%= link_to 'Show', post %></a>
+      <a><%= link_to 'Edit', edit_post_path(post) %></a>
+      <a><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></a>
+    </div><!-- col -->
+  </div><!-- row -->
+  <% end %>
+</div><!-- container -->
 
 <br>
 
-<%= link_to 'New Post', new_post_path %>
+<%= link_to 'New Post', new_post_path, :class => "new-post" %>
 
