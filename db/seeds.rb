@@ -5,3 +5,4 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Post.create(:name => "seed-generated post", :description => "I also created this product without using the HTML form!", :image_url => "https://cdn.pixabay.com/photo/2013/02/13/17/26/cabo-san-lucas-81367_1280.jpg")
